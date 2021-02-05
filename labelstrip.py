@@ -5,7 +5,6 @@
 # dependencies - pyqt5 qdarkgraystyle qimage2ndarray numpy scikit-image openslide-python pyinstaller
 
 
-from scripts import anonymize_slide
 import qdarkgraystyle
 import sys
 import os
@@ -14,7 +13,6 @@ from PyQt5.QtWidgets import QFileDialog
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.uic import loadUi
-import numpy as np
 import subprocess
 
 if not hasattr(sys, "_MEIPASS"):
