@@ -1,7 +1,7 @@
 # DEPLOY MAC
 # sudo pyinstaller -F --windowed -p /Users/callum/callum/labelstrip/scripts --add-data "/Users/callum/callum/labelstrip/scripts:scripts" --icon=scripts/icon.icns labelstrip.py
 # Windows
-# pyinstaller -F --windowed -p C:/Users/callum/labelstrip/scripts --add-data "C:/Users/callum/labelstrip/scripts;scripts" --icon=scripts/icon.ico labelstrip.py
+# pyinstaller -F --windowed --hidden-import=configparser -p C:/Users/callum/labelstrip/scripts --add-data "C:/Users/callum/labelstrip/scripts;scripts" --icon=scripts/icon.ico labelstrip.py
 
 from scripts import anonymise_slide_py3
 import qdarkgraystyle
