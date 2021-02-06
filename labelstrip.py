@@ -1,10 +1,9 @@
 # DEPLOY MAC
 # sudo pyinstaller -F --windowed -p /Users/callum/callum/labelstrip/scripts --add-data "/Users/callum/callum/labelstrip/scripts:scripts" --icon=scripts/icon.icns labelstrip.py
 # Windows
-# pyinstaller -F --windowed -p C:/Users/Daniel/Downloads//scripts --add-data "C:/Users/Daniel/Downloads//scripts;scripts" --icon=scripts/docs/he.ico labelstrip.py
-# dependencies - pyqt5 qdarkgraystyle qimage2ndarray numpy scikit-image openslide-python pyinstaller
+# pyinstaller -F --windowed -p C:/Users/callum/labelstrip/scripts --add-data "C:/Users/callum/labelstrip/scripts;scripts" --icon=scripts/icon.ico labelstrip.py
 
-
+from scripts import anonymise_slide_py3
 import qdarkgraystyle
 import sys
 import os
@@ -31,7 +30,6 @@ class MyWindow(QMainWindow):
     def run(self):
         print("running")
         path = QFileDialog.getExistingDirectory(parent=self, caption='Open file')
-                                                # directory="/Users/callum/Desktop")
         # path = "/Users/callum/Desktop/stripname"
         if path:
             files = [i for i in os.listdir(path) if i.endswith(".svs")]
@@ -39,11 +37,9 @@ class MyWindow(QMainWindow):
             print(files)
             for i in range(len(files)):
                 print(path+os.sep+files[i])
-                os.system(sys._MEIPASS+os.sep+"scripts"+os.sep+"anonymize-slide.py "+path+os.sep+files[i])
+                anonymise_slide_py3._main(path+os.sep+files[i])
                 self.progressBar.setValue(i+1)
                 QApplication.processEvents()
-                # subprocess.call("/Users/callum/callum/labelstrip/scripts/anonymize-slide.py "+path+os.sep+files[i])
-                # anonymize_slide._main(path+os.sep+files[i])
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
