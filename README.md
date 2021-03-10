@@ -1,6 +1,6 @@
 ![labels](./docs/banner.png)
 
-# labelstrip
+# labelstrip ![alt text](https://github.com/c-arthurs/labelstrip/blob/master/docs/App_Icon.png "logo for labelstrip")
 
 This was quickly written to distribute an application to remove labels from whole slide image SVS files. As the original required scripting knowledge to run.
 
