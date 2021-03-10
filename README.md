@@ -1,4 +1,4 @@
-![labels](./docs/App_Icon.png)
+![labels](./docs/banner.png)
 
 # labelstrip
 
