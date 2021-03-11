@@ -1,12 +1,13 @@
+![labels](./docs/banner.png)
+
 <a href="https://www.https://www.linkedin.com/in/callum-arthurs/">
     <img src="https://github.com/c-arthurs/labelstrip/blob/master/docs/App_icon_6060.png" alt="Application logo" title="labelstrip" align="right" height="60" />
 </a>
 
 # labelstrip 
 
-![labels](./docs/banner.png)
 
-This was quickly written to distribute an application to remove labels from whole slide image SVS files. As the original required scripting knowledge to run.
+This was written to distribute an application to remove labels from whole slide image SVS files. As the original required scripting knowledge to run.
 
 ![labels](./docs/gui.png) 
 
