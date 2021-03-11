@@ -1,4 +1,8 @@
-# ![alt text](https://github.com/c-arthurs/labelstrip/blob/master/docs/App_icon_6060.png "logo for labelstrip") labelstrip 
+<a href="https://www.https://www.linkedin.com/in/callum-arthurs/">
+    <img src="https://github.com/c-arthurs/labelstrip/blob/master/docs/App_icon_6060.png" alt="Application logo" title="labelstrip" align="right" height="60" />
+</a>
+
+# labelstrip 
 
 ![labels](./docs/banner.png)
 
