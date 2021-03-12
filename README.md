@@ -39,3 +39,5 @@ Therefore please only use this on files that have been backed up.
 ### Acknowledgement 
 
 This script is built around the amazing [anonymize-slide](https://github.com/bgilbert/anonymize-slide). Their script was updated to python three to install it into this GUI. 
+
+If you are looking for the python program to strip the labels without the GUI then please use their scripts directly. 
