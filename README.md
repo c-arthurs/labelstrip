@@ -41,3 +41,11 @@ Therefore please only use this on files that have been backed up.
 This script is built around the amazing [anonymize-slide](https://github.com/bgilbert/anonymize-slide). Their script was updated to python three to install it into this GUI. 
 
 If you are looking for the python program to strip the labels without the GUI then please use their scripts directly. 
+
+## Contributing 
+
+We welcome any contributions to this project. The next thing to do on the todo list is add a *save codebreaker* option, which will allow the user to save a codebreaker file with an image of each label before they are removed from the dataset. 
+
+Any issues of can be raised in the issues section and I will try to address them. 
+
+We welcome pull requests for bugs. 
