@@ -13,19 +13,22 @@ This was written to distribute an application to remove labels from whole slide 
 
 *Figure 1. Image of the GUI for labelstrip.*
 
-### Usage
+## Usage
 
 Download the MAC version of the app - [here](https://github.com/c-arthurs/labelstrip/releases/download/v0.2/labelstrip_macos.app.zip)
 
 <details>
-  <summary>Notes on mac app</summary><p align="center">
+  <summary>Notes on mac app</summary><p align="left">
   <a>
   The user may have to right click and select open to get it to open for the first time</a><br>
-</details>
-
-
+</details><br><br>
 
 Download the PC version of the app - [here](https://github.com/c-arthurs/labelstrip/releases/download/v0.2/labelstrip_windows.exe)
+
+<details>
+  <summary>Notes on PC app</summary><p align="left">
+  The pc version has been tested using only SVS files but should work on NDPI also </a><br>
+</details><br><br>
 
 ### WARNING
 
