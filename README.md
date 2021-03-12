@@ -17,6 +17,11 @@ This was written to distribute an application to remove labels from whole slide 
 
 Download the MAC version of the app - [here](https://github.com/c-arthurs/labelstrip/releases/download/v0.2/labelstrip_macos.app.zip)
 
+<details>
+  <summary>Notes on mac app</summary><p align="center">
+  <a>
+  The user may have to right click and select open to get it to open for the first time</a><br>
+</details>
 Download the PC version of the app - [here](https://github.com/c-arthurs/labelstrip/releases/download/v0.2/labelstrip_windows.exe)
 
 ### WARNING
