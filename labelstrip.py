@@ -32,7 +32,8 @@ class MyWindow(QMainWindow):
         path = QFileDialog.getExistingDirectory(parent=self, caption='Open file')
         # path = "/Users/callum/Desktop/stripname"
         if path:
-            files = [i for i in os.listdir(path) if i.endswith(".svs")]
+            wsi_types = (".svs", ".ndpi")
+            files = [i for i in os.listdir(path) if i.endswith(wsi_types)]
             self.progressBar.setMaximum(len(files))
             print(files)
             for i in range(len(files)):
